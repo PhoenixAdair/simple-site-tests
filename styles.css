@@ -1,0 +1,43 @@
+body {
+	font-family: monospace;
+	font-size: 17px;
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	text-decoration: none;
+	background-color: red;
+	padding: 30px;
+}
+ul li{
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+ul li a {
+	color: white;
+} 
+
+ul li a:hover {
+	color: purple;
+	font-family: sans-serif;
+}
+
+.headinfo {
+	text-align: center;
+}
+
+.headinfo img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	transition: 1.5s ease-in-out;
+} 
+
+.headinfo img:hover{
+	transform: scale(1.5) rotate(720deg);
+}
+footer {
+	background-color: red;
+	padding: 20px;
+}
